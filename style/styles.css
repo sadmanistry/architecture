@@ -86,4 +86,7 @@ header img{
     nav > ul{
         margin-top: 25px;
     }
+    header img{
+        height: auto;
+    }
 }
