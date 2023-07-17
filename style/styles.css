@@ -71,12 +71,63 @@ header img{
     margin-top: 70px;
     align-items: center;
 }
+/* header section end */
+
+/* main section */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 40px 120px 40px 180px;
+}
+/* teams style */
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.team-img-size{
+    width: 15rem;
+    height: 16rem;
+}
+.team-text{
+    margin-left: 3rem;
+}
+
+.title-Q{
+    color: #727272;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.title-O{
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.title-F{
+    color: #FF900E;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.team-text-para{
+    color: #727272;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+
+
 
 
 
 
 /* media section */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
     header{
         padding: 20px;
     }    
