@@ -77,12 +77,12 @@ header img{
 main{
     max-width: 1440px;
     margin: 0px auto;
-    padding: 40px 120px 40px 180px;
 }
 /* teams style */
 .team-container{
     display: flex;
     align-items: center;
+    padding: 40px 120px 40px 180px;
 }
 .team-img{
     display: grid;
@@ -119,6 +119,68 @@ main{
     line-height: 26px;
     margin-top: 18px;
 }
+
+/* features section */
+.features {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    padding: 40px 120px 40px 110px;
+}
+
+.features .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-text {
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: #FFF;
+}
+.card{
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features-para{
+    color: var(--dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.feature-img img{
+    height: 44rem;
+    width: 33rem;
+    margin-left: 20px;
+}
+
+ .ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 200px;
+    padding: 35px 15px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-years-badge h2{
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.ten-years-badge p{
+    font-size: 1.3rem;
+}
+
 
 
 
