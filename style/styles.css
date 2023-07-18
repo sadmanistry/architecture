@@ -128,9 +128,11 @@ main{
     padding: 40px 120px 40px 110px;
 }
 
-.features .section-title{
+.features .features-title{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
+    font-size: 2rem;
+    font-weight: 700
 }
 
 .feature-text {
@@ -169,6 +171,8 @@ main{
     padding: 35px 15px;
     text-align: center;
     position: relative;
+    right: 40px;
+    bottom: 10px;
     bottom: 100px;
 }
 
@@ -180,6 +184,49 @@ main{
 .ten-years-badge p{
     font-size: 1.3rem;
 }
+
+/* facts section */
+ 
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 120px 40px 140px;
+}
+.facts-title{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.facts-text{
+    padding: 40px 120px 40px 110px;
+}
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 25px;
+}
+
+.facts-card-container .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
+.facts-card-container .card-stats {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-card-para{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 
 
 
